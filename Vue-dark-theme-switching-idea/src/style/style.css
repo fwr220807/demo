@@ -1,0 +1,30 @@
+/* 引入 markdown 的样式 */
+@import url(./markdown/github-markdown.css);
+
+/* 清除默认样式 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: var(--font);
+}
+
+/* @/style/style.css */
+/* 默认为明亮模式的样式 */
+:root {
+	--bg-color: #fafafa;
+	--font-color: #24292f;
+}
+/* 黑暗模式的样式 */
+html.dark {
+	--bg-color: #252525;
+	--font-color: #c9d1d9;
+}
+
+html {
+	background-color: var(--bg-color);
+	color: var(--font-color);
+}
