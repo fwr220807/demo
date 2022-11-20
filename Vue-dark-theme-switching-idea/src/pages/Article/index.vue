@@ -4,11 +4,12 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-// 引入主题仓库
 import { useThemesStore } from '@/store/themes'
+
 // md 为具有 html 结构的文本
-const md = ref(`<h2>这是文章标题<h2>
+const md = ref(`<h2>这是标题<h2>
     <p>我是文章的内容，用于示例展示</p>`)
+
 // 获取 dom
 const markdown = ref(null)
 // 仓库
