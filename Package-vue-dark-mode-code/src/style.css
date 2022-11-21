@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+html.dark {
+  color-scheme: dark;
+  color: #fff;
+  background-color: #1a1a1a;
+}
+
+html.coffee {
+  color-scheme: coffee;
+  color: rgb(53, 34, 34);
+  background-color: #a29b9b;
+}
